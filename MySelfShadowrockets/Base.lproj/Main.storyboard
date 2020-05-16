@@ -621,17 +621,16 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="z6g-GW-LBB" firstAttribute="bottom" secondItem="wsu-SD-3wT" secondAttribute="bottom" id="1gl-QJ-e2V"/>
                                     <constraint firstItem="tpa-ux-a8q" firstAttribute="top" secondItem="wsu-SD-3wT" secondAttribute="top" id="7du-Hn-Hkl"/>
                                     <constraint firstItem="iVS-sF-x6q" firstAttribute="top" secondItem="tpa-ux-a8q" secondAttribute="bottom" id="E4S-pt-xgP"/>
                                     <constraint firstItem="z6g-GW-LBB" firstAttribute="top" secondItem="iVS-sF-x6q" secondAttribute="bottom" id="Iiu-FC-5Od"/>
-                                    <constraint firstItem="wsu-SD-3wT" firstAttribute="bottom" secondItem="iVS-sF-x6q" secondAttribute="bottom" id="Iut-Zc-FnB"/>
                                     <constraint firstItem="z6g-GW-LBB" firstAttribute="leading" secondItem="bdO-Dn-xOp" secondAttribute="leading" id="Sfr-hQ-gUT"/>
                                     <constraint firstAttribute="trailing" secondItem="tpa-ux-a8q" secondAttribute="trailing" id="VeB-Tf-uLX"/>
                                     <constraint firstItem="iVS-sF-x6q" firstAttribute="leading" secondItem="wsu-SD-3wT" secondAttribute="leading" id="Y7q-pU-Zcv"/>
                                     <constraint firstItem="tpa-ux-a8q" firstAttribute="leading" secondItem="BIl-JD-gPp" secondAttribute="leading" id="ZHJ-Wd-dsB"/>
                                     <constraint firstItem="z6g-GW-LBB" firstAttribute="trailing" secondItem="bdO-Dn-xOp" secondAttribute="trailing" id="f0u-SZ-nUP"/>
                                     <constraint firstItem="iVS-sF-x6q" firstAttribute="trailing" secondItem="wsu-SD-3wT" secondAttribute="trailing" id="tFM-Iz-C8p"/>
-                                    <constraint firstItem="tpa-ux-a8q" firstAttribute="top" secondItem="wsu-SD-3wT" secondAttribute="top" id="y1N-6n-8QW"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="wsu-SD-3wT"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="bdO-Dn-xOp"/>
