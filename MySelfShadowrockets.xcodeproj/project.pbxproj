@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9408F80B246A267D00B8E511 /* SectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9408F80A246A267D00B8E511 /* SectionController.swift */; };
 		948D880E2432C06700886811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D880D2432C06700886811 /* AppDelegate.swift */; };
 		948D88102432C06700886811 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D880F2432C06700886811 /* SceneDelegate.swift */; };
 		948D88122432C06700886811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D88112432C06700886811 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9408F80A246A267D00B8E511 /* SectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionController.swift; sourceTree = "<group>"; };
 		948D880A2432C06700886811 /* MySelfShadowrockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySelfShadowrockets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948D880D2432C06700886811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		948D880F2432C06700886811 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				948D880F2432C06700886811 /* SceneDelegate.swift */,
 				948D88112432C06700886811 /* ViewController.swift */,
 				948D88132432C06700886811 /* Main.storyboard */,
+				9408F80A246A267D00B8E511 /* SectionController.swift */,
 				948D88192432C06800886811 /* Assets.xcassets */,
 				948D881B2432C06800886811 /* LaunchScreen.storyboard */,
 				948D881E2432C06800886811 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9408F80B246A267D00B8E511 /* SectionController.swift in Sources */,
 				948D88122432C06700886811 /* ViewController.swift in Sources */,
 				948D880E2432C06700886811 /* AppDelegate.swift in Sources */,
 				948D88182432C06700886811 /* MySelfShadowrockets.xcdatamodeld in Sources */,
