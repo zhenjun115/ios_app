@@ -67,6 +67,17 @@ class ViewController: UIViewController {
             titleLabel.transform = CGAffineTransform(translationX: 0, y: -offsetY/3)
             deviceImageView.transform = CGAffineTransform(translationX: 0, y: -offsetY/4)
         }
+        
+        if let collectionView = scrollView as? UICollectionView {
+            for cell in collectionView.visibleCells as! [SectionCollectionViewCell] {
+                let indexPath = collectionView.indexPath(for: cell)!
+                let layoutAttributes = collectionView.layoutAttributesForItem(at: indexPath)!
+                let frame = collectionView.convert(layoutAttributes.frame, to: view)
+                let tansformX = frame.origin.x / 5
+                cell.cover.transform = CGAffineTransform(translationX: tansformX, y: 0)
+                print(frame)
+            }
+        }
     }
 }
 

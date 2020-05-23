@@ -541,7 +541,7 @@
                                                                             <rect key="frame" x="0.0" y="0.0" width="304" height="248"/>
                                                                             <subviews>
                                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ios11" translatesAutoresizingMaskIntoConstraints="NO" id="l0I-3U-I19">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="248"/>
+                                                                                    <rect key="frame" x="-100" y="0.0" width="504" height="248"/>
                                                                                 </imageView>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn iOS 11 design" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOD-hx-Wwc">
                                                                                     <rect key="frame" x="20" y="20" width="264" height="20.333333333333329"/>
@@ -559,14 +559,14 @@
                                                                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="trailing" secondItem="XOD-hx-Wwc" secondAttribute="trailing" constant="20" id="5oI-Xf-l3X"/>
-                                                                                <constraint firstItem="l0I-3U-I19" firstAttribute="top" secondItem="erd-W6-5pD" secondAttribute="top" id="9Pd-UA-Jup"/>
                                                                                 <constraint firstAttribute="trailing" secondItem="srb-Vz-b0Z" secondAttribute="trailing" constant="20" id="Af7-3l-tQf"/>
-                                                                                <constraint firstAttribute="bottom" secondItem="l0I-3U-I19" secondAttribute="bottom" id="NY4-47-mEr"/>
-                                                                                <constraint firstItem="l0I-3U-I19" firstAttribute="leading" secondItem="erd-W6-5pD" secondAttribute="leading" id="Q7J-UZ-E2b"/>
-                                                                                <constraint firstAttribute="trailing" secondItem="l0I-3U-I19" secondAttribute="trailing" id="XkP-a4-Sed"/>
+                                                                                <constraint firstAttribute="bottom" secondItem="l0I-3U-I19" secondAttribute="bottom" id="I9m-7t-cMb"/>
+                                                                                <constraint firstItem="l0I-3U-I19" firstAttribute="leading" secondItem="erd-W6-5pD" secondAttribute="leading" constant="-100" id="Wlu-xN-1QU"/>
+                                                                                <constraint firstAttribute="trailing" secondItem="l0I-3U-I19" secondAttribute="trailing" constant="-100" id="bU6-LO-hhc"/>
                                                                                 <constraint firstItem="XOD-hx-Wwc" firstAttribute="leading" secondItem="erd-W6-5pD" secondAttribute="leading" constant="20" id="jon-OG-svr"/>
                                                                                 <constraint firstItem="XOD-hx-Wwc" firstAttribute="top" secondItem="erd-W6-5pD" secondAttribute="top" constant="20" id="lyC-7H-90C"/>
                                                                                 <constraint firstItem="srb-Vz-b0Z" firstAttribute="leading" secondItem="erd-W6-5pD" secondAttribute="leading" constant="20" id="mH2-LH-AHx"/>
+                                                                                <constraint firstItem="l0I-3U-I19" firstAttribute="top" secondItem="erd-W6-5pD" secondAttribute="top" id="rSh-Mm-tK2"/>
                                                                                 <constraint firstAttribute="bottom" secondItem="srb-Vz-b0Z" secondAttribute="bottom" constant="20" id="xU4-lc-gT6"/>
                                                                             </constraints>
                                                                             <userDefinedRuntimeAttributes>
